@@ -7,7 +7,7 @@ function App() {
   useEffect(()=> {
     console.log('Mounted')
 
-    fetch("https://vinyl-capstoner.vercel.app/vinyl")
+    fetch("vinyl-1xp7szc4q-jasmines-projects-18d884ad.vercel.app")
     .then((response) => response.json())
     .then((data)=> setData(data));
   }, [])
