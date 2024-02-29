@@ -7,7 +7,7 @@ function App() {
   useEffect(()=> {
     console.log('Mounted')
 
-    fetch("vinyl-1xp7szc4q-jasmines-projects-18d884ad.vercel.app")
+    fetch("https://vercel.com/jasmines-projects-18d884ad/recipe-app-backend/9AvZGmhm7qDLvQXGbuSGuEng8mQ6")
     .then((response) => response.json())
     .then((data)=> setData(data));
   }, [])
